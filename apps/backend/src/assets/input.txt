@@ -1,0 +1,43 @@
+2023-01-01 10:00:00 debug: saved: 42 items
+2023-01-01 10:00:32 info: =================================
+2023-01-01 10:00:32 info: ======= ENV: development =======
+2023-01-01 10:00:32 info: 🚀 App listening on the port 3000
+2023-01-01 10:00:32 info: =================================
+2023-01-01 11:14:21 debug: saving log file to db
+2023-01-01 12:14:21 info: =================================
+2023-01-01 12:14:21 info: ======= ENV: development =======
+2023-01-01 12:14:21 info: 🚀 App listening on the port 3000
+2023-02-03 12:14:21 info: =================================
+2023-02-03 13:17:45 info: =================================
+2023-02-03 13:17:45 info: ======= ENV: development =======
+2023-02-03 13:17:45 info: 🚀 App listening on the port 3000
+2023-02-03 13:17:45 info: =================================
+2023-02-03 14:19:02 info: =================================
+2023-02-03 14:19:02 info: ======= ENV: development =======
+2023-02-03 14:19:02 info: 🚀 App listening on the port 3000
+2023-02-03 14:19:02 info: =================================
+2023-03-10 15:19:09 info: =================================
+2023-03-10 15:19:09 info: ======= ENV: development =======
+2023-03-10 15:19:09 info: 🚀 App listening on the port 3000
+2023-03-10 15:19:09 info: =================================
+2023-03-21 20:43:40 error: uncaughtException: Cannot read properties of undefined (reading 'message')
+TypeError: Cannot read properties of undefined (reading 'message')
+    at /src/controllers/index.controller.ts:36:13
+    at /node_modules/line-reader/lib/line_reader.js:279:15
+    at getLine (//node_modules/line-reader/lib/line_reader.js:166:7)
+    at Object.nextLine (//node_modules/line-reader/lib/line_reader.js:183:7)
+    at Immediate.readNext (//node_modules/line-reader/lib/line_reader.js:269:14)
+    at processImmediate (node:internal/timers:466:21)
+    at process.topLevelDomainCallback (node:domain:161:15)
+    at process.callbackTrampoline (node:internal/async_hooks:128:24)
+2023-03-21 20:43:40 error: uncaughtException: Cannot read property 'on' of undefined
+TypeError: Cannot read property 'on' of undefined
+    at /src/controllers/index.controller.ts:36:13
+    at /node_modules/line-reader/lib/line_reader.js:279:15
+    at getLine (//node_modules/line-reader/lib/line_reader.js:166:7)
+    at Object.nextLine (//node_modules/line-reader/lib/line_reader.js:183:7)
+    at Immediate.readNext (//node_modules/line-reader/lib/line_reader.js:269:14)
+    at processImmediate (node:internal/timers:466:21)
+    at process.topLevelDomainCallback (node:domain:161:15)
+    at process.callbackTrampoline (node:internal/async_hooks:128:24)
+2023-03-31 21:59:59 debug: saved: 25 items
